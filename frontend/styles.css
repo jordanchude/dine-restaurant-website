@@ -1,4 +1,22 @@
+/* GLOBAL */
+body {
+    margin: 0;
+}
+
+/* CLASSES */
 .hero {
+    align-items: center;
+    justify-content: center;
     background-image: url("./images/homepage/hero-bg-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+}
+
+.dine {
+    
 }
