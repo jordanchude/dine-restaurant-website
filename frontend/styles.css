@@ -3,10 +3,9 @@ body {
     margin: 0;
 }
 
-/* CLASSES */
+/* HERO */
 .hero {
     align-items: center;
-    justify-content: center;
     background-image: url("./images/homepage/hero-bg-mobile.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -15,8 +14,18 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    justify-content: center;
+    text-align: center;
 }
 
-.dine {
-    
+.hero-subheader {
+    font-weight: 100;
+}
+
+.hero-book {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 20px;
+    text-transform: uppercase;
 }
